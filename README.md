@@ -1,33 +1,88 @@
-# TalhaPassNFT
-# TalhaPassNFT 🎓
+## Foundry
 
-TalhaPassNFT is a decentralized NFT DApp that allows users to connect their MetaMask wallet, view owned certificates (NFTs), and transfer them securely on the Sepolia Testnet.
+**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
----
+Foundry consists of:
 
-## ✨ Features
+- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
+- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
+- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-- 🔗 Connect MetaMask wallet  
-- 💰 Show wallet address & ETH balance  
-- 🖼️ Display owned NFTs with metadata  
-- 🔄 Transfer NFTs directly from the dashboard  
-- 🔍 Etherscan link after successful transfer  
-- 🎨 Modern UI with hover effects and popup notifications  
+## Documentation
 
----
+https://book.getfoundry.sh/
 
-## 🚀 Getting Started
+## Usage
 
-### Prerequisites
-- Node.js and npm installed  
-- MetaMask browser extension installed  
-- Test ETH in Sepolia Network  
+### Build
 
-### Run Locally
+```shell
+$ forge build
+```
+
+### Test
+
+```shell
+$ forge test
+```
+
+### Format
+
+```shell
+$ forge fmt
+```
+
+### Gas Snapshots
+
+```shell
+$ forge snapshot
+```
+
+### Anvil
+
+```shell
+$ anvil
+```
+
+### Deploy
+
+```shell
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
+
+### Cast
+
+```shell
+$ cast <subcommand>
+```
+
+### Help
+
+```shell
+$ forge --help
+$ anvil --help
+$ cast --help
+```
+# TalhaPassNFT DApp
+
+A decentralized NFT dashboard to connect MetaMask, view owned NFTs, and transfer them securely.
+
+## Features
+
+- Connect MetaMask  
+- Show wallet address and ETH balance  
+- List owned NFTs (based on token IDs)  
+- Transfer NFTs with Etherscan link  
+
+## How to run
+
 ```bash
-# Clone the repo
-git clone https://github.com/Talha-Shamas-dev/TalhaPassNFT.git
-cd TalhaPassNFT
+# Install http-server (if not installed)
+npm install -g http-server
 
-# Serve frontend (using http-server)
-npx http-server .
+# Serve the frontend
+http-server .
+
+# Then in browser open
+http://localhost:8080

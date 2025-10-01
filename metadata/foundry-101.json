@@ -1,0 +1,36 @@
+{
+    "name": "Talha Pass NFT #2: Blockchain LFS170 Completion",
+    "description": "Certificate from The Linux Foundation for completing 'Blockchain: Understanding Its Uses and Implications (LFS170)'. Awarded to Muhammad Talha Shamas on August 07, 2025. Certificate ID: LF-cetgmjamo0.",
+    "image": "ipfs://bafybeihwwso4ammyu2pyusz5iobnuqvruu6p6rwp7ub3nkwuapuzoz3hay",
+    "attributes": [
+        {
+            "trait_type": "Recipient",
+            "value": "Muhammad Talha Shamas"
+        },
+        {
+            "trait_type": "Course",
+            "value": "Blockchain: Understanding Its Uses and Implications (LFS170)"
+        },
+        {
+            "trait_type": "Platform",
+            "value": "The Linux Foundation"
+        },
+        {
+            "trait_type": "Completion Date",
+            "value": "August 07, 2025"
+        },
+        {
+            "trait_type": "Certificate ID",
+            "value": "LF-cetgmjamo0"
+        },
+        {
+            "trait_type": "Type",
+            "value": "Professional Certification"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Unique"
+        }
+    ],
+    "external_url": "https://training.linuxfoundation.org/certification/blockchain-lfs170/"
+}
