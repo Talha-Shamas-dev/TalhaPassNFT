@@ -1,6 +1,6 @@
 ## Foundry
-ERC-721 NFT-Based Certificate Issuance System (Foundry)
-Project Overview
+**ERC-721 NFT-Based Certificate Issuance System (Foundry)
+Project Overview**
 
 This project implements an ERC-721 NFT-based certificate system to issue tamper-proof, verifiable certificates for blockchain and smart contract training completed via Foundry-based development workflows.
 Each certificate is minted as a non-fungible token (NFT), ensuring ownership, authenticity, and immutability on-chain.
